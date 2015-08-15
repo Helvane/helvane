@@ -1,0 +1,634 @@
+.profileImage {
+    width: 128px;
+    height: 128px;
+    border-radius: 69px;
+    border: 5px solid;
+    border-color: #00FFFF;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.center
+{
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1 span { color: deeppink;}
+
+.content .mainbar .article { margin:0; padding:16px 24px 24px 40px;}
+
+.container {background-color: #222222; color: #ffffff}
+
+html, .main { padding:0; margin:0; background:#165d84 url(/images/background-blue-wallpaper.jpg) repeat;}
+
+.logo { padding:60px 0 0;}
+.hbg { background:url(/images/Logo-main.png) no-repeat center top; height:189px;}
+
+.blackbackground {background-color: #222222; color: #ffffff;}
+
+.postbody .content {
+    font-size: 1.3em;
+}
+
+#cp-main .content {
+    padding: 0;
+}
+
+.post:target .content {
+    color: #808081;
+}
+
+.content {
+    color: #8c8b8b;
+}
+
+.content h2, .panel h2 {
+    color: #5CAD5C;
+    border-bottom-color:  #222222;
+}
+
+.forum-box {
+    background: #222222;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 6px;
+}
+
+ul.post-row {
+    background-color: #1a1a1a;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    display: block;
+    list-style-type: none;
+    padding: 5px 5px 5px 0;
+    border-radius: 3px;
+}
+
+ul.post-row-reported {
+    background-color: #510b14;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    display: block;
+    list-style-type: none;
+    padding: 5px 5px 5px 0;
+    border-radius: 3px;
+}
+
+.postbody {
+    padding: 0;
+    line-height: 1.48em;
+    color: #333333;
+    width: 76%;
+    float: right;
+    clear: both;
+}
+
+.postbody .ignore {
+    font-size: 1.1em;
+}
+
+.postbody h3.first {
+    /* The first post on the page uses this */
+    font-size: 1.7em;
+}
+
+.postbody h3 {
+    /* Postbody requires a different h3 format - so change it here */
+    font-size: 1.5em;
+    padding: 2px 0 0 0;
+    margin: 0 0 0.3em 0 !important;
+    text-transform: none;
+    border: none;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+    line-height: 125%;
+}
+
+.postbody h3 img {
+    /* Also see tweaks.css */
+    vertical-align: bottom;
+}
+
+.search .postbody {
+    width: 68%
+}
+
+#topicreview .postbody {
+    width: auto;
+    float: none;
+    margin: 0;
+    height: auto;
+}
+
+.post-ignore .postbody {
+    display: none;
+}
+
+.postbody ul.profile-icons {
+    float: right;
+    width: auto;
+    padding: 0;
+}
+
+.postbody ul.profile-icons li {
+    margin: 0 3px;
+}
+
+#cp-main .postbody p {
+    font-size: 1.1em;
+}
+
+#cp-main .postbody h3, #cp-main .box2 h3 {
+    margin-top: 0;
+}
+
+.mcp-main .postbody {
+    width: 100%;
+}
+
+* html .postbody h3 img { vertical-align: middle; }
+
+.postbody {
+    color: #8c8b8b;
+}
+
+td.poster .postavatar .avatarborder { display: inline-block; display:-moz-inline-stack; zoom:1; *display:inline; border: 3px solid #3c3c3c; }
+
+td.poster .postavatar .avatarborder_minecraft_outer {
+    padding-right: 3px;
+    display: inline-block;
+    display:-moz-inline-stack; zoom:1;
+    *display:inline;
+    right: 42px;
+    bottom: 2px;
+    border: none;
+    position: absolute;
+}
+
+td.poster .postavatar .avatarborder_minecraft {
+    padding-right: 3px;
+    display: inline-block;
+    display:-moz-inline-stack; zoom:1;
+    *display:inline;
+    border: none;
+    right: 46px;
+    bottom: 7px;
+    position: absolute;
+}
+
+.avatarborder_minecraft > img,
+.avatarborder_minecraft_outer > img {
+    rotation: -45deg;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+}
+
+td.poster .postavatar .avatarborder img { max-width: 150px; width: auto; height: auto; display: block; }
+
+td.poster .postavatar { text-align: right; margin-top: 24px; padding-right: 24px; position: relative; }
+
+.navmenu {
+    width: 100%;
+    background-color: #1e1e1e;
+    background-image: url("/images/navmenu-background.png");
+    background-position: top;
+    overflow: hidden;
+    border-top: 1px solid #000;
+    margin-bottom: 5px;
+}
+
+.navlink {
+    float: left;
+    font-family: Tahoma,"Helvetica Neue",Arial,sans-serif;
+    text-transform: uppercase;
+}
+
+.navlink ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navlink li {
+    float: left;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    background: url("/images/navSplit.gif") no-repeat top right;
+    float: left;
+    padding-right: 2px;
+}
+
+.navlink a {
+    display: block;
+    color: #d9d9d9;
+    text-shadow: rgba(0,0,0,0.6) 0px -1px 0px;
+    text-decoration: none;
+    padding: 0 16px;
+    height: 40px;
+    position: relative;
+    -webkit-transition: color 350ms ease-in-out;
+    -moz-transition: color 350ms ease-in-out;
+    -o-transition: color 350ms ease-in-out;
+    transition: color 350ms ease-in-out;
+    -webkit-transition: all 350ms ease-in-out;
+    -moz-transition: all 350ms ease-in-out;
+    -ms-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
+}
+
+.navlink a img{
+    display: none;
+}
+
+.navlink a:hover {
+    color: #a2a2a2;
+    background: rgba(0,0,0,0.27);
+    -webkit-box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.navlink a strong {
+    color: #d9d9d9;
+    font-size: 14px;
+    padding-top: 5px;
+    line-height: 40px;
+}
+
+ul.navlinks {
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #FFFFFF;
+    font-weight: bold;
+}
+
+ul.navlinks {
+    border: none;
+    padding-top: 3px;
+}
+
+
+
+.steamprofile * {
+    font-size: 10px;
+    font-family: tahoma,Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.steamprofile {
+    position: relative;
+    width: 246px;
+    height: 48px;
+    background: #3A3A3A url(/images/background.png);
+    overflow: hidden;
+    margin: 4px;
+}
+
+.steamprofile .sp-bg-game,
+.steamprofile .sp-bg-fade {
+    background-position: right center;
+    height: 48px;
+}
+
+.steamprofile .sp-bg-fade {
+    background-repeat: repeat-y;
+    background-image: url(/images/background_fade.png);
+}
+
+.steamprofile .sp-bg-game {
+    background-repeat: no-repeat;
+}
+
+.steamprofile .sp-badge,
+.steamprofile .sp-loading,
+.steamprofile .sp-error {
+    padding: 4px;
+}
+
+.steamprofile a {
+    text-decoration: none;
+}
+
+.steamprofile img  {
+    border: none;
+}
+
+.steamprofile .sp-loading {
+    margin: 8px;
+    padding-left: 40px;
+    color: #606060;
+    font-size: 20px;
+    background: transparent url(/images/loading.gif) no-repeat left center;
+}
+
+.steamprofile .sp-error {
+    margin: 4px 8px;
+    padding-left: 22px;
+    color: #cc4444;
+    font-size: 12px;
+    background: transparent url(/images/error.png) no-repeat left center;
+}
+
+.steamprofile:hover {
+    background-color: #313131;
+}
+
+.steamprofile .sp-avatar {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 4px;
+}
+
+.steamprofile .sp-avatar img  {
+    margin: 4px;
+}
+
+.steamprofile .sp-info a {
+    font-weight: bold;
+}
+
+.steamprofile .sp-in-game {
+    color: #8bc53f;
+}
+
+.steamprofile .sp-in-game a {
+    color: #b1fb50;
+}
+
+.steamprofile .sp-online {
+    color: #6f9fc8;
+}
+
+.steamprofile .sp-online a {
+    color: #8ecbff;
+}
+
+.steamprofile .sp-online .sp-avatar,
+.steamprofile .sp-in-game .sp-avatar,
+.steamprofile .sp-offline .sp-avatar {
+    background: transparent url(/images/iconholder.png) no-repeat 0 0;
+}
+
+.steamprofile .sp-online .sp-avatar {
+    background-position: -40px 0;
+}
+
+.steamprofile .sp-in-game .sp-avatar {
+    background-position: -80px 0;
+}
+
+.steamprofile .sp-offline .sp-info,
+.steamprofile .sp-offline .sp-info a {
+    color: #898989;
+}
+
+.steamprofile .sp-extra {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    background: transparent;
+    height: 50px;
+}
+
+.steamprofile .sp-handle {
+    width: 16px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    left: -16px;
+    top: -1px;
+    background: url(/images/handle.png) right center no-repeat;
+}
+
+.steamprofile .sp-handle:hover {
+    cursor: pointer;
+}
+
+.steamprofile .sp-content {
+    white-space: nowrap;
+    height: 50px;
+    padding: 6px;
+    padding-top: 16px;
+    display: none;
+}
+
+.steamprofile .sp-content ul {
+    list-style: none;
+    float: left;
+}
+
+.steamprofile .sp-content li {
+    height: 16px;
+    padding-left: 18px;
+    margin: 2px;
+}
+
+.steamprofile .sp-content a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.steamprofile .sp-addfriend,
+.steamprofile .sp-joingame,
+.steamprofile .sp-viewitems {
+    display: block;
+    position: absolute;
+    bottom: 5;
+    right: 2;
+    width: 16px;
+    height: 16px;
+    background: transparent url(/images/icons.png) no-repeat 0 0;
+}
+
+.steamprofile .sp-addfriend {
+    background-position: -16px 0;
+}
+
+.steamprofile .sp-addfriend:hover {
+    background-position: 0px 0;
+}
+
+.postlink {
+    text-decoration: none;
+    color: #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    padding-bottom: 0;
+}
+
+/* .postlink:visited { color: #bdbdbd; } */
+
+.postlink:active {
+    color: #d2d2d2;
+}
+
+.postlink:hover {
+    background-color: #f6f6f6;
+    text-decoration: none;
+    color: #404040;
+}
+
+.postlink {
+    color: #4A8A4A;
+    border-bottom-color: #4A8A4A;
+}
+
+.postlink:visited {
+    color: #1b5c92;
+    border-bottom-color: #1b5c92;
+}
+
+.postlink:active {
+    color: #4A8A4A;
+}
+
+.postlink:hover {
+    background-color: #353535;
+    color: #8c8b8b;
+}
+
+.wrap2 {
+    padding: 0;
+    min-width: 650px;
+    width: 990px;
+    margin: 0 auto;
+}
+
+fieldset.quick-login input.inputbox {
+    width: 15%;
+    vertical-align: middle;
+    margin-right: 5px;
+    background-color: #f3f3f3;
+}
+
+.inputbox {
+    background-color: #FFFFFF;
+    border: 1px solid #c0c0c0;
+    color: #333333;
+    padding: 2px;
+    cursor: text;
+}
+
+.inputbox:hover {
+    border: 1px solid #eaeaea;
+}
+
+.inputbox:focus {
+    border: 1px solid #eaeaea;
+    color: #4b4b4b;
+}
+
+input.inputbox	{ width: 85%; }
+
+textarea.inputbox {
+    width: 85%;
+}
+
+fieldset.quick-login input.inputbox {
+    background-color: #1a1a1a;
+}
+
+.inputbox {
+    border: 1px solid #090909;
+    background: #2f2f2f;
+    color: #dedede;
+    border-radius: 4px;
+}
+
+.inputbox:hover {
+    border-color: #1664c2;
+}
+
+.inputbox:focus {
+    border-color: #1664c2;
+    color: #dedede;
+}
+
+input.button1, input.button2 {
+    font-size: 1em;
+}
+
+a.button1, input.button1, input.button3, a.button2, input.button2 {
+    width: auto !important;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+    color: #000;
+    background: #FAFAFA none repeat-x top left;
+}
+
+a.button2, input.button2, input.button3 {
+    border: 1px solid #666666;
+}
+
+a.button1, a.button1:link, a.button1:visited, a.button1:active, a.button2, a.button2:link, a.button2:visited, a.button2:active {
+    text-decoration: none;
+    color: #000000;
+    padding: 2px 8px;
+    line-height: 250%;
+    vertical-align: text-bottom;
+    background-position: 0 1px;
+}
+
+a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
+    border: 1px solid #BCBCBC;
+    background-position: 0 100%;
+    color: #BCBCBC;
+}
+
+* html input.button1, * html input.button2 {
+    padding-bottom: 0;
+    margin-bottom: 1px;
+}
+
+a.button1, input.button1, input.button3, a.button2, input.button2 {
+    background: linear-gradient(to bottom, #282827 0%, #3e3e3e 100%) repeat-x scroll 0px -1px #2d2d2d;
+    color: #d9d9d9;
+    box-shadow: 0px 1px 3px #000;
+    border-radius: 3px 3px 3px 3px;
+    display: inline-block;
+    padding: 0 9px;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+a.button2, input.button2, input.button3 {
+    border-color: #2d2d2d;
+}
+
+a.button1, a.button1:link, a.button1:visited, a.button1:active, a.button2, a.button2:link, a.button2:visited, a.button2:active {
+    color: #808081;
+}
+
+a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
+    border-color: #4A8A4A;
+    color: #4A8A4A;
+}
+
+
+
+.content { margin-bottom:12px;}
+.content_resize { margin:0 auto; padding:16px 0 0; width:970px; background:#fff url(/images/content_bg.gif) repeat-x top;}
+.content .mainbar { margin:0; padding:0; float:right; width:670px;}
+.content .mainbar img { padding:2px; border: 1px solid #B7B7B7;}
+.content .mainbar img.fl { margin:4px 16px 4px 0; float:left;}
+.content .mainbar .article { margin:0; padding:16px 24px 24px 40px;}
+.content .sidebar { padding:0; float:left; width:300px;}
+.content .sidebar .gadget { margin:0; padding:16px 16px 24px 40px;}
+
+.header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content .sidebar { margin:0; padding:0;}
+
+.content .mainbar .comment { margin:0; padding:16px 0 0 0;}
+.content .mainbar .comment img.userpic { border:1px solid #dedede; margin:10px 16px 0 0; padding:0; float:left;}
